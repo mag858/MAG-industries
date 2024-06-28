@@ -73,12 +73,11 @@
 		
 			<center><input type="reset" value="сброс">
 			</center>
-			</form>
 			<center><p>Если вы отвелити на вопросы то продублируйте  ответы на вопросы буквами когда нажмете <b>готово</b>.</p></center>
 			<p><center><a href="mailto:magind000@gmail.com"><button><b>готово</b></button></a></center></p>
 			
 		<hr>
-		<p><center><b>ПОМОЩЬ В РАЗВИТИИ</b><center></p>
+		<p><center><b>ПОМОЩЬ В РАЗВИТИИ</b><center>
 		<p>мы будем очень благодарны за помощь в развитии</p> 
 		<b><p>карта alfa bank 5208 1300 1976 0002</p>
 		<p>карта belinvest bank 5578 8434 4450 8141</p>
@@ -87,7 +86,7 @@
 		</b>
 		
 		<hr>
-		<p><center><b>СВЯЗЬ С НАМИ </b><center></p>
+		<p><center><b>СВЯЗЬ С НАМИ </b><center>
 		
 		<p><a href="mailto:magind000@gmail.com"><button><b>почта</b></button></a></p>
 		<p><button><b><a href="https://www.tiktok.com/@vlad5699?_t=8nWtK2z4RF7&_r=1" target="_blank">Tik tok</a></b></button></p>
