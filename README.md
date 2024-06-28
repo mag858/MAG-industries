@@ -73,7 +73,7 @@
 		
 			<center><input type="reset" value="сброс">
 			</center>
-			<center><p>Если вы отвелити на вопросы то продублируйте  ответы на вопросы буквами когда нажмете <b>готово</b>.</p></center>
+			<center><p>Если вы отвелити на вопросы то продублируйте  ответы на вопросы буквами когда нажмете <b>готово</b>. Или продублируйте на почту magind000@gmail.com</p></center>
 			<p><center><a href="mailto:magind000@gmail.com"><button><b>готово</b></button></a></center></p>
 			
 		<hr>
