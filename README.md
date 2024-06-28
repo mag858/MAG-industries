@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-	
+	<title>MAG industries</title>
 	<meta name="Glushnev Mikhail Alekseevich">
 	<meta countent ="The site of the company MAG industries">
 	<meta name="Keyboards" content="sait, MAG industries, interesting, tehnology, content, startup, 3d printer, arduino, code, knowledge, machine, auto, car">	
@@ -20,7 +20,7 @@
 		
 		<center><h3>вопросы</h3></center>
 		<form>
-			<b>a. вы хотите что бы мы выпускали спортивные авто?
+			<b><p>a. вы хотите что бы мы выпускали спортивные авто?</p>
 			<p>
 			b. вы хотите что бы мы выпускали люксовые авто золотого века?
 			</p>
@@ -46,7 +46,7 @@
 			<input type="checkbox">
 			</p>
 		
-			<b>какой двигатель вы бы хотели там видеть?</b>
+			<p><b>какой двигатель вы бы хотели там видеть?</b></p>
 			<p>
 			a. ДВС <img src="sait/dvs.jpg" height ="60" width = "100">
 			<input type="checkbox"></p><p>
