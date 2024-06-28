@@ -86,13 +86,11 @@
 		</b>
 		
 		<hr>
-		<p><center><b>СВЯЗЬ С НАМИ </b><center>
+		<p><center><b>СВЯЗЬ С НАМИ</b><center></p>
 		
 		<p><a href="mailto:magind000@gmail.com"><button><b>почта</b></button></a></p>
 		<p><button><b><a href="https://www.tiktok.com/@vlad5699?_t=8nWtK2z4RF7&_r=1" target="_blank">Tik tok</a></b></button></p>
 		
 		<p><button><b><a href="https://youtube.com/@vlad-992?si=_9kNrpqfQaRI-jB5" target="_blank">YouTube</a></b></button></p>
 		
-		<center>Все ваши ответы сторого конфиденсальны и не передаються третьим лицам.<center>
-	</body>
-</html>
+		<center>Все ваши ответы сторого конфиденсальны и не передаються третьим лицам.<center></body></html>
