@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>MAG industries</title>
+	<meta name="Glushnev Mikhail Alekseevich">
+	<meta countent ="The site of the company MAG industries">
+	<meta name="Keyboards" content="sait, MAG industries, interesting, tehnology, content, startup, 3d printer, arduino, code, knowledge, machine, auto, car, survey, be">	
+	</head>
+	
+    <body style=background-color:#D5E7FF>
+    
+    <p><b><a href="file:///Users/mihail/Desktop/MAG%20industries.html">вернуться на главную</a>&emsp;</a></b></p>
+    
+    <center><h1><b><font color = "#F42300">
+    MAG industries</font><b></h1></center>
+    
+    
+    <h2><center><b><font color = "#F3A000">future - right now</font></b></center>
+				<center><sup>(будующее - прямо сейчас)</sup></center></h2>
+				
+		<center><h3>вопросы</h3></center>
+		<form action="https://api.web3forms.com/submit" method="POST">
+		<input type="hidden" name="access_key" value="cabd165b-582a-434a-8aec-d05523b4c7f7">
+		
+		<center><input type="text" name="имя: " placeholder="Ваше Имя">
+	
+	<input type="text" name="Фамилия: " placeholder="Ваша Фамилия"> 
+	
+	<input type="text" name="Сколько лет: " placeholder="Сколько вам лет" maxlength="3">
+	
+	<p><input type="email " name="email: "placeholder="Ваш email"></p></center>
+	
+			<b><p>1) a. вы хотите что бы мы выпускали спортивные авто?</p>
+			<p>
+			b. вы хотите что бы мы выпускали люксовые авто золотого века?
+			</p>
+			<p>
+			с. вы хотите что бы мы выпускали седаны или хетчбеки?
+			</p>
+			<p>
+			d. вы хотите что бы мы выпускали кабриолеты? 
+			</p>
+			<p>
+			e. вы хотите что бы мы выпускали внедорожники? 
+			</p></b>
+			<p>
+			a. <img src="sait/car.jpg" height ="60" width = "100">
+			<input type="checkbox" name="1. спорт авто">
+			b. <img src="sait/car2.jpg" height ="60" width = "100">
+			<input type="checkbox" name="1. люксовое авто золотого века">
+			c. <img src="sait/car3.jpg" height ="60" width = "100">
+			<input type="checkbox" name="1. седаны">
+			d. <img src="sait/car4.jpg" height ="60" width = "100">
+			<input type="checkbox" name="1. кабриолет">
+			e. <img src="sait/car5.jpg" height ="60" width = "100">
+			<input type="checkbox" name="1. внедорожники">
+			</p>
+		
+			<p><b>2) какой двигатель вы бы хотели там видеть?</b></p>
+			<p>
+			a. ДВС <img src="sait/dvs.jpg" height ="60" width = "100">
+			<input type="checkbox" name="2. ДВС"></p><p>
+			b. Электро двигатель <img src="sait/dvs2.jpg" height ="90" width = "130">
+			<input type="checkbox" name="2. Электро двигатель"></p><p>
+			c. Гибридный двигатель <img src="sait/dvs3.jpg" height ="70" width = "130">
+			<input type="checkbox" name="2. Гибридный двигатель"></p>
+		
+			<b>3) Какую цену за авто вы бы смогли себе позволить?</b>
+			<p>
+			a. до 10000$
+			<input type="checkbox" name="3. до 10000$"></p><p>
+			b. до 25000$
+			<input type="checkbox" name="3. до 25000$"></p><p>
+			c. более 25000$
+			<input type="checkbox" name="3. более 25000$"></p>
+		
+			<b>4) На каком авто вы бы хотели бы ездить?</b>
+			<p>
+			a. отечественном
+			<input type="checkbox" name="4. отечественной"></p><p>
+			b. зарубежном
+			<input type="checkbox" name="4. зарубежной"></p><p>
+			
+			
+			<b>5) Вы бы хотели что бы у наших машин была возможность управления выдвижения фар?</b>
+			<p>
+			a. да
+			<input type="checkbox" name="5. за выдвижные фары"></p><p>
+			b. нет
+			<input type="checkbox" name="5. против выдвижных фар"></p><p>
+			
+			<b>6) какое кол-во передач на КПП вы хотели бы видеть?</b>
+			<p>
+			
+			<input type="textarea" name="6. кол-во скоростей на КПП" maxlength="2" placeholder="Число передач"></p><p>
+			
+			
+			<b>7) какое КПП вы хотели бы видеть в вашем авто?</b><p>
+			
+		а. Механическая	<input type="checkbox" name="7. КПП. механика" ></p><p>
+			
+	    b. Автомат <input type="checkbox" name="7. КПП. автомат" ></p><p>
+			
+		с. Робот <input type="checkbox" name="7. КПП. роботизированная" ></p><p>
+			
+			
+			<b>8) за какое время до 100 км/ч было бы оптимально на вашем авто?</b>
+			<p>
+			<input type="textarea" name="8.время до 100 км/ч" maxlength="5" placeholder="время в секундах"></p><p>
+
+			
+			<center><input type="submit" value="отправить" class="btn" name="send">
+			
+			<input type="reset" value="сброс"></center>
+			</form>		
+				<hr>
+				<small><center>Все ваши ответы сторого конфиденсальны и не передаються третьим лицам.<center></small>
+	</body>
+	</html>
