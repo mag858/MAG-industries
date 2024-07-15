@@ -13,7 +13,7 @@
     
     <b><a href="file:///Users/mihail/Desktop/idea.html">поделиться идеями</a>&emsp;</b>
     
-    <b><a href="file:///Users/mihail/Desktop/opros.html">пройти опрос</a>&emsp;</b>
+    <b><a href="[file:///Users/mihail/Desktop/opros.html](https://mag858.github.io/mag_opros/)">пройти опрос</a>&emsp;</b>
     
     <b><a href="file:///Users/mihail/Desktop/help%20me.html">помощь в развитии</a>&emsp;</b>
     
