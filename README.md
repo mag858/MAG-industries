@@ -9,7 +9,7 @@
 	
     <body style=background-color:#D5E7FF>
 	    
-    <center><b><a href="file:///Users/mihail/Desktop/svas.html">связаться с нами</a>&emsp;</a></b>
+    <center><b><a href="https://mag858.github.io/mag_svas/">связаться с нами</a>&emsp;</a></b>
     
     <b><a href="file:///Users/mihail/Desktop/idea.html">поделиться идеями</a>&emsp;</b>
     
