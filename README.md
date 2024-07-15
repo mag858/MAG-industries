@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 	<head>
 	<title>MAG industries</title>
@@ -6,10 +6,8 @@
 	<meta countent ="The site of the company MAG industries">
 	<meta name="Keyboards" content="sait, MAG industries, interesting, tehnology, content, startup, 3d printer, arduino, code, knowledge, machine, auto, car, arduino, HTML, python, C++, sport">	
 	</head>
-	
-    <body style=background-color:#D5E7FF>
 	    
-    <center><b><a href="https://mag858.github.io/mag_svas/">связаться с нами</a>&emsp;</a></b>
+    <center><b><a href="https://mag858.github.io/mag_svas/">связаться с нами&emsp;</a></b>
     
     <b><a href="https://mag858.github.io/mag_idea/">поделиться идеями</a>&emsp;</b>
     
@@ -45,8 +43,7 @@
 		</p><p>
 		<img src="sait/stol5.JPG" height ="300" width = "400">
 		<img src="sait/stol6.JPG" height ="300" width = "400">
-		</p><p><img src="sait/stol7.JPG" height ="300" width = "400"></p></center>
+		</p><p><img src="sait/stol7.JPG" height ="300" width = "400"></p>
 		<hr>
 		<center><small>обновление 2.0&emsp;июль 2024г</small></center>
-		</body>
-</html>
+		
