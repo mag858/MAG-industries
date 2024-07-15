@@ -5,7 +5,7 @@
 	<meta countent ="The site of the company MAG industries">
 	<meta name="Keyboards" content="sait, MAG industries, interesting, tehnology, content, startup, 3d printer, arduino, code, knowledge, machine, auto, car, arduino, HTML, python, C++, sport">	
 	</head>
-	    
+	    <body style="background-color:#D5E7FF">
     <center><b><a href="https://mag858.github.io/mag_svas/">связаться с нами&emsp;</a></b>
     
     <b><a href="https://mag858.github.io/mag_idea/">поделиться идеями</a>&emsp;</b>
