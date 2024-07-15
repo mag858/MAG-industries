@@ -11,7 +11,7 @@
 	    
     <center><b><a href="https://mag858.github.io/mag_svas/">связаться с нами</a>&emsp;</a></b>
     
-    <b><a href="file:///Users/mihail/Desktop/idea.html">поделиться идеями</a>&emsp;</b>
+    <b><a href="https://mag858.github.io/mag_idea/">поделиться идеями</a>&emsp;</b>
     
     <b><a href="https://mag858.github.io/mag_opros/">пройти опрос</a>&emsp;</b>
     
