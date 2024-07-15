@@ -37,7 +37,7 @@
 		<img src="sait/foto3.jpg" height ="300" width = "400">
 		<img src="sait/foto4.jpg" height ="300" width = "400"></p><p>
 		<img src="sait/foto5.jpg" height ="300" width = "400">
-		<img src="sait/stol1.jpg" height ="300" width = "400"></p>
+		<img src="sait/stol1.JPG" height ="300" width = "400"></p>
 		<p><img src="sait/stol1.jpg" height ="300" width = "400">
 		<img src="sait/stol2.jpg" height ="300" width = "400"></p><p>
 		<img src="sait/stol3.jpg" height ="300" width = "400">
