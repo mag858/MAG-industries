@@ -17,7 +17,7 @@
     
     <b><a href="https://mag858.github.io/mag_help_me/">помощь в развитии</a>&emsp;</b>
     
-    <b><a href="">тех.помощь</a></b></center>
+    <b><a href="https://mag858.github.io/mag_help_you/">тех.помощь</a></b></center>
     
 	<p><center><img src="sait/bull.jpg" height ="400" width = "400"></center></p>
 		
