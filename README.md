@@ -44,5 +44,5 @@
 		<img src="sait/stol6.JPG" height ="300" width = "400">
 		</p><p><img src="sait/stol7.JPG" height ="300" width = "400"></p>
 		<hr>
-		<center><small>обновление 2.1&emsp;июль 2024г</small></center>
+		<center><small>обновление 2.0.1&emsp;июль 2024г</small></center>
 		
