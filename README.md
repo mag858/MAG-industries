@@ -10,7 +10,7 @@
     
     <b><a href="https://mag858.github.io/mag_idea/">поделиться идеями</a>&emsp;</b>
     
-    <b><a href="https://mag858.github.io/mag_opros/">пройти опрос</a>&emsp;</b>
+    <b><a href="https://mag858.github.io/mag_opros/">пройти опрос по машинам</a>&emsp;</b>
     
     <b><a href="https://mag858.github.io/mag_help_me/">помощь в развитии</a>&emsp;</b>
     
