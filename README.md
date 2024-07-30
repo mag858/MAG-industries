@@ -11,6 +11,8 @@
     <b><a href="https://mag858.github.io/mag_idea/">поделиться идеями</a>&emsp;</b>
     
     <b><a href="https://mag858.github.io/mag_opros/">пройти опрос по машинам</a>&emsp;</b>
+
+    <b><a href="https://mag858.github.io/mag_opros/">пройти опрос по электронике</a>&emsp;</b>">
     
     <b><a href="https://mag858.github.io/mag_help_me/">помощь в развитии</a>&emsp;</b>
     
@@ -44,5 +46,5 @@
 		<img src="sait/stol6.JPG" height ="300" width = "400">
 		</p><p><img src="sait/stol7.JPG" height ="300" width = "400"></p>
 		<hr>
-		<center><small>обновление 2.0.1&emsp;июль 2024г</small></center>
+		<center><small>обновление 2.1.0&emsp;июль 2024г</small></center>
 		
