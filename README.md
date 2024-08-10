@@ -49,5 +49,4 @@
 		
 		<hr>
 		<center><small>обновление 2.2.0&emsp;август 2024г</small></center>
-		</body>
-</html>
+		
