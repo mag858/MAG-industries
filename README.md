@@ -38,14 +38,14 @@
 		<img src="sait/foto3.jpg" height ="300" width = "400">
 		<img src="sait/foto4.jpg" height ="300" width = "400"></p><p>
 		<img src="sait/foto5.jpg" height ="300" width = "400">
-		<img src="sait/stol1.jpg" height ="300" width = "400"></p>
-		<p><img src="sait/stol1.jpg" height ="300" width = "400">
-		<img src="sait/stol2.jpg" height ="300" width = "400"></p><p>
-		<img src="sait/stol3.jpg" height ="300" width = "400">
-		<img src="sait/stol4.jpg" height ="300" width = "400">
+		<img src="sait/stol1.JPG" height ="300" width = "400"></p>
+		<p><img src="sait/stol1.JPG" height ="300" width = "400">
+		<img src="sait/stol2.JPG" height ="300" width = "400"></p><p>
+		<img src="sait/stol3.JPG" height ="300" width = "400">
+		<img src="sait/stol4.JPG" height ="300" width = "400">
 		</p><p>
-		<img src="sait/stol5.jpg" height ="300" width = "400">
-		<img src="sait/stol6.jpg" height ="300" width = "400">
+		<img src="sait/stol5.JPG" height ="300" width = "400">
+		<img src="sait/stol6.JPG" height ="300" width = "400">
 		
 		<hr>
 		<center><small>обновление 2.2.0&emsp;август 2024г</small></center>
