@@ -48,5 +48,5 @@
 		<img src="sait/stol6.JPG" height ="300" width = "400">
 		
 		<hr>
-		<center><small>обновление 2.2.0&emsp;август 2024г</small></center>
+		<center><small>обновление 2.2.1&emsp;октябрь 2024г</small></center>
 		
