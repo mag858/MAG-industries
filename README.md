@@ -61,7 +61,7 @@
         
         nav {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Ровно 2 ряда по 3 ссылки */
+            grid-template-columns: repeat(3, 1fr);
             gap: 10px;
             max-width: 900px;
             margin: 0 auto;
@@ -106,23 +106,30 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 2.8rem;
             color: var(--primary);
-            margin: 20px 0;
+            margin: 20px 0 5px;
             animation: slideUp 1.2s ease-out;
         }
         
-        h1 sup {
-            font-size: 1.2rem;
+        .slogan-ru {
+            font-size: 1.3rem;
             color: #555;
+            margin-bottom: 20px;
+            animation: slideUp 1.4s ease-out;
+        }
+        
+        .banner-wrapper {
+            text-align: center;
+            margin: 30px auto;
         }
         
         .banner {
-            width: 100%;
             max-width: 1270px;
-            margin: 30px auto;
+            width: 90%;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: var(--shadow);
             animation: fadeIn 2s ease-out;
+            display: inline-block;
         }
         
         .content {
@@ -190,22 +197,43 @@
         @keyframes fadeInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
         
-        /* На телефоне и планшете — если экран слишком узкий, переходим в столбик */
-        @media (max-width: 600px) {
+        /* На телефоне — строго 2 ряда, даже на узких экранах */
+        @media (max-width: 768px) {
             .site-title {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
             }
             
             nav {
-                grid-template-columns: 1fr; /* Один столбик на очень маленьких экранах */
+                grid-template-columns: repeat(3, 1fr); /* 2 ряда по 3 */
+                gap: 8px;
+            }
+            
+            nav a {
+                font-size: 0.85rem;
+                padding: 8px 6px;
             }
             
             h1 {
-                font-size: 2.2rem;
+                font-size: 2.3rem;
+            }
+            
+            .slogan-ru {
+                font-size: 1.1rem;
             }
             
             .logo {
                 max-width: 280px;
+            }
+            
+            .banner {
+                width: 95%;
+            }
+        }
+        
+        /* Если экран совсем узкий — переходим в 1 столбик */
+        @media (max-width: 450px) {
+            nav {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -227,8 +255,11 @@
 
     <section class="hero">
         <img src="sait/logo_2.jpeg" alt="Логотип MAG Industries" class="logo">
-        <h1>future - right now<sup>(будущее - прямо сейчас)</sup></h1>
-        <img src="sait/pop.jpg" alt="Баннер MAG Industries" class="banner">
+        <h1>future - right now</h1>
+        <p class="slogan-ru">(будущее - прямо сейчас)</p>
+        <div class="banner-wrapper">
+            <img src="sait/pop.jpg" alt="Баннер MAG Industries" class="banner">
+        </div>
     </section>
 
     <section class="content">
@@ -256,7 +287,7 @@
     </section>
 
     <footer>
-        обновление 2.6.0 &emsp; январь 2026 г.
+        обновление 2.7.0 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
