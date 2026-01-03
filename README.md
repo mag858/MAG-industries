@@ -14,8 +14,8 @@
     
     <style>
         :root {
-            --primary: #F3A000;        /* Оранжевый для слогана и заголовков */
-            --accent-red: #FF0000;     /* Чистый яркий КРАСНЫЙ для названия компании */
+            --primary: #F3A000;
+            --accent-red: #FF0000;     /* Яркий красный */
             --bg: #CCE1FE;
             --text: #222;
             --shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -36,7 +36,7 @@
         }
         
         header {
-            padding: 12px 0;
+            padding: 10px 0;
             background: rgba(255,255,255,0.95);
             box-shadow: var(--shadow);
             position: sticky;
@@ -55,41 +55,42 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 2.3rem;
             font-weight: 700;
-            color: var(--accent-red); /* Теперь чистый красный #FF0000 */
-            margin-bottom: 12px;
+            color: var(--accent-red);
+            margin-bottom: 8px;
         }
         
         nav {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 10px;
         }
         
         nav a {
             text-decoration: none;
             color: var(--text);
             font-weight: 600;
-            padding: 8px 12px;
+            padding: 6px 10px;
             border-radius: 8px;
             transition: all 0.3s ease;
             white-space: nowrap;
+            font-size: 0.95rem;
         }
         
         nav a:hover {
             background: var(--primary);
             color: white;
-            transform: translateY(-3px);
+            transform: translateY(-2px);
         }
         
         .hero {
             text-align: center;
-            padding: 30px 20px 20px;
+            padding: 20px 20px 20px; /* Ещё меньше сверху */
             animation: fadeIn 1.5s ease-out;
         }
         
         .logo {
-            max-width: 350px;
+            max-width: 320px;
             border-radius: 20px;
             box-shadow: var(--shadow);
             transition: transform 0.5s ease;
@@ -188,23 +189,40 @@
         @keyframes fadeInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
         
+        /* Суперкомпактная шапка на телефоне */
         @media (max-width: 768px) {
+            header {
+                padding: 6px 0; /* Ещё меньше */
+            }
+            
             .site-title {
-                font-size: 1.9rem;
+                font-size: 1.5rem; /* В 1.5 раза меньше */
+                margin-bottom: 6px;
             }
-            h1 {
-                font-size: 2.2rem;
-            }
+            
             nav {
+                gap: 6px;
                 flex-direction: column;
                 align-items: center;
             }
+            
             nav a {
-                width: 90%;
+                font-size: 0.9rem;
+                padding: 6px 8px;
+                width: 92%;
                 text-align: center;
             }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
             .hero {
-                padding-top: 15px;
+                padding-top: 10px; /* Минимальный отступ сверху */
+            }
+            
+            .logo {
+                max-width: 280px;
             }
         }
     </style>
@@ -255,7 +273,7 @@
     </section>
 
     <footer>
-        обновление 2.4.1 &emsp; январь 2026 г.
+        обновление 2.5.0 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
