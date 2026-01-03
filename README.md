@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -141,7 +140,8 @@
         
         .grid img {
             width: 100%;
-            height: auto;
+            height: 250px; /* Фиксированная высота для всех фото */
+            object-fit: cover; /* Обрезает, чтобы заполнить, сохраняя пропорции */
             border-radius: 15px;
             box-shadow: var(--shadow);
             transition: all 0.4s ease;
@@ -152,12 +152,15 @@
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         
-        /* Последнее фото всегда по центру */
+        /* Последнее фото по центру и того же размера */
         .grid img:last-child {
             grid-column: 1 / -1;
+            width: 100%;
             max-width: 400px;
+            height: 250px; /* Та же высота */
             margin: 0 auto;
             justify-self: center;
+            object-fit: cover;
         }
         
         footer {
@@ -175,13 +178,15 @@
             .subtitle { font-size: 1.4rem; }
             nav a { font-size: 0.9rem; padding: 10px 4px; }
             .logo { max-width: 280px; }
+            .grid img { height: 200px; } /* Чуть меньше на мобильных для экономии места */
+            .grid img:last-child { height: 200px; max-width: 300px; }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <div class="site-title">MAG Industries</div>
+            <div class="site-title">MAG industries</div>
             <nav>
                 <a href="https://mag858.github.io/mag_svas/">Связаться с нами</a>
                 <a href="https://mag858.github.io/mag_idea/">Поделиться идеями</a>
@@ -225,7 +230,7 @@
     </section>
 
     <footer>
-        обновление 3.0 &emsp; январь 2026 г.
+        обновление 3.1 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
