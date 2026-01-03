@@ -9,7 +9,6 @@
     <meta name="keywords" content="MAG industries, стартап, автомобили, электроника, 3D-принтер, Arduino, технологии, СНГ, инновации">
     <title>MAG Industries | Будущее — прямо сейчас</title>
     
-    <!-- Современные шрифты и иконки -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -39,7 +38,7 @@
         }
         
         header {
-            padding: 20px 0;
+            padding: 15px 0;
             background: rgba(255,255,255,0.95);
             box-shadow: var(--shadow);
             position: sticky;
@@ -47,13 +46,25 @@
             z-index: 100;
         }
         
-        nav {
+        .header-content {
             max-width: 1200px;
             margin: 0 auto;
+            text-align: center;
+        }
+        
+        .site-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        nav {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 15px;
         }
         
         nav a {
@@ -63,6 +74,7 @@
             padding: 10px 15px;
             border-radius: 8px;
             transition: all 0.3s ease;
+            white-space: nowrap;
         }
         
         nav a:hover {
@@ -73,7 +85,7 @@
         
         .hero {
             text-align: center;
-            padding: 40px 20px;
+            padding: 40px 20px 20px;
             animation: fadeIn 1.5s ease-out;
         }
         
@@ -156,7 +168,6 @@
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         
-        /* Задержка анимации для каждого изображения */
         .grid img:nth-child(1) { animation-delay: 0.2s; }
         .grid img:nth-child(2) { animation-delay: 0.4s; }
         .grid img:nth-child(3) { animation-delay: 0.6s; }
@@ -194,23 +205,45 @@
             to { opacity: 1; transform: translateY(0); }
         }
         
+        /* Мобильные улучшения */
         @media (max-width: 768px) {
-            h1 { font-size: 2.2rem; }
-            nav { flex-direction: column; align-items: center; }
-            nav a { width: 80%; text-align: center; }
+            .site-title {
+                font-size: 1.8rem;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav a {
+                width: 85%;
+                text-align: center;
+            }
+            
+            .hero {
+                padding-top: 20px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="https://mag858.github.io/mag_svas/">Связаться с нами</a>
-            <a href="https://mag858.github.io/mag_idea/">Поделиться идеями</a>
-            <a href="https://mag858.github.io/mag_opros/">Опрос по машинам</a>
-            <a href="https://mag858.github.io/opros_electronics/">Опрос по электронике</a>
-            <a href="https://mag858.github.io/mag_help_me/">Помощь в развитии</a>
-            <a href="https://mag858.github.io/mag_help_you/">Техническая помощь</a>
-        </nav>
+        <div class="header-content">
+            <div class="site-title">MAG Industries</div>
+            <nav>
+                <a href="https://mag858.github.io/mag_svas/">Связаться с нами</a>
+                <a href="https://mag858.github.io/mag_idea/">Поделиться идеями</a>
+                <a href="https://mag858.github.io/mag_opros/">Опрос по машинам</a>
+                <a href="https://mag858.github.io/opros_electronics/">Опрос по электронике</a>
+                <a href="https://mag858.github.io/mag_help_me/">Помощь в развитии</a>
+                <a href="https://mag858.github.io/mag_help_you/">Техническая помощь</a>
+            </nav>
+        </div>
     </header>
 
     <section class="hero">
@@ -244,7 +277,7 @@
     </section>
 
     <footer>
-        обновление 2.3.0 &emsp; январь 2026 г.
+        обновление 2.3.1 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
