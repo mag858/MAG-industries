@@ -190,7 +190,7 @@
             <nav>
                 <a href="https://mag858.github.io/mag_svas/">Связаться с нами</a>
                 <a href="https://mag858.github.io/mag_idea/">Поделиться идеями</a>
-                <a href="https://mag858.github.io/mag_opros/">Опрос по машинам</a>
+                <a href="https://mag858.github.io/mag_opros/">Опрос по часам</a>
                 <a href="https://mag858.github.io/opros_electronics/">Опрос по электронике</a>
                 <a href="https://mag858.github.io/mag_help_me/">Помощь в развитии</a>
                 <a href="https://mag858.github.io/mag_help_you/">Техническая помощь</a>
