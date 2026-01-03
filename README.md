@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,14 +11,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
     <style>
         :root {
-            --primary: #F3A000;
+            --primary: #F3A000;        /* Оранжевый для слогана и заголовков */
+            --accent-red: #FF0000;     /* Чистый яркий КРАСНЫЙ для названия компании */
             --bg: #CCE1FE;
             --text: #222;
-            --card-bg: #ffffff;
             --shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         
@@ -38,7 +36,7 @@
         }
         
         header {
-            padding: 15px 0;
+            padding: 12px 0;
             background: rgba(255,255,255,0.95);
             box-shadow: var(--shadow);
             position: sticky;
@@ -50,28 +48,29 @@
             max-width: 1200px;
             margin: 0 auto;
             text-align: center;
+            padding: 0 15px;
         }
         
         .site-title {
             font-family: 'Montserrat', sans-serif;
-            font-size: 2.2rem;
+            font-size: 2.3rem;
             font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 10px;
+            color: var(--accent-red); /* Теперь чистый красный #FF0000 */
+            margin-bottom: 12px;
         }
         
         nav {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 12px;
         }
         
         nav a {
             text-decoration: none;
             color: var(--text);
             font-weight: 600;
-            padding: 10px 15px;
+            padding: 8px 12px;
             border-radius: 8px;
             transition: all 0.3s ease;
             white-space: nowrap;
@@ -85,7 +84,7 @@
         
         .hero {
             text-align: center;
-            padding: 40px 20px 20px;
+            padding: 30px 20px 20px;
             animation: fadeIn 1.5s ease-out;
         }
         
@@ -184,49 +183,28 @@
             color: #666;
         }
         
-        /* Анимации */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
         
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(50px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        @keyframes fadeInLeft {
-            from { opacity: 0; transform: translateX(-50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        /* Мобильные улучшения */
         @media (max-width: 768px) {
             .site-title {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
             }
-            
             h1 {
                 font-size: 2.2rem;
             }
-            
             nav {
                 flex-direction: column;
                 align-items: center;
             }
-            
             nav a {
-                width: 85%;
+                width: 90%;
                 text-align: center;
             }
-            
             .hero {
-                padding-top: 20px;
+                padding-top: 15px;
             }
         }
     </style>
@@ -277,7 +255,7 @@
     </section>
 
     <footer>
-        обновление 2.3.1 &emsp; январь 2026 г.
+        обновление 2.4.1 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
