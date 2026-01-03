@@ -15,24 +15,19 @@
     <style>
         :root {
             --primary: #F3A000;
-            --accent-red: #FF0000;
+            --red: #FF0000;
             --bg: #CCE1FE;
             --text: #222;
             --shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: 'Roboto', sans-serif;
             background-color: var(--bg);
             color: var(--text);
             line-height: 1.6;
-            overflow-x: hidden;
         }
         
         header {
@@ -55,15 +50,15 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 2.3rem;
             font-weight: 700;
-            color: var(--accent-red);
-            margin-bottom: 10px;
+            color: var(--red);
+            margin-bottom: 12px;
         }
         
         nav {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            max-width: 900px;
+            grid-template-columns: 1fr 1fr 1fr; /* Всегда 3 колонки */
+            gap: 8px 12px;
+            max-width: 1000px;
             margin: 0 auto;
         }
         
@@ -71,65 +66,52 @@
             text-decoration: none;
             color: var(--text);
             font-weight: 600;
-            padding: 8px 12px;
+            padding: 9px 6px;
             border-radius: 8px;
             transition: all 0.3s ease;
             font-size: 0.95rem;
             text-align: center;
+            background: rgba(255,255,255,0.7);
         }
         
         nav a:hover {
             background: var(--primary);
             color: white;
-            transform: translateY(-3px);
         }
         
         .hero {
             text-align: center;
-            padding: 20px 20px 20px;
-            animation: fadeIn 1.5s ease-out;
+            padding: 25px 20px 40px;
         }
         
         .logo {
             max-width: 320px;
             border-radius: 20px;
             box-shadow: var(--shadow);
-            transition: transform 0.5s ease;
-            animation: slideUp 1s ease-out;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
+            margin-bottom: 20px;
         }
         
         h1 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 2.8rem;
+            font-size: 3rem;
             color: var(--primary);
-            margin: 20px 0 5px;
-            animation: slideUp 1.2s ease-out;
+            margin: 0 0 10px 0;
+            line-height: 1.2;
         }
         
-        .slogan-ru {
-            font-size: 1.3rem;
-            color: #555;
-            margin-bottom: 20px;
-            animation: slideUp 1.4s ease-out;
-        }
-        
-        .banner-wrapper {
-            text-align: center;
-            margin: 30px auto;
+        .subtitle {
+            font-size: 1.6rem;
+            color: #333;
+            font-weight: 500;
         }
         
         .banner {
+            width: 100%;
             max-width: 1270px;
-            width: 90%;
+            margin: 40px auto;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: var(--shadow);
-            animation: fadeIn 2s ease-out;
-            display: inline-block;
         }
         
         .content {
@@ -138,20 +120,13 @@
             padding: 0 20px;
             font-size: 1.1rem;
             text-align: justify;
-            animation: fadeInLeft 1.5s ease-out;
-        }
-        
-        .gallery {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
         }
         
         .gallery h2 {
             text-align: center;
             font-family: 'Montserrat', sans-serif;
             font-size: 2.2rem;
-            margin-bottom: 40px;
+            margin: 60px 0 40px;
             color: var(--primary);
         }
         
@@ -159,6 +134,9 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
         }
         
         .grid img {
@@ -167,8 +145,6 @@
             border-radius: 15px;
             box-shadow: var(--shadow);
             transition: all 0.4s ease;
-            opacity: 0;
-            animation: fadeInUp 1s ease-out forwards;
         }
         
         .grid img:hover {
@@ -176,65 +152,29 @@
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         
-        .grid img:nth-child(1) { animation-delay: 0.2s; }
-        .grid img:nth-child(2) { animation-delay: 0.4s; }
-        .grid img:nth-child(3) { animation-delay: 0.6s; }
-        .grid img:nth-child(4) { animation-delay: 0.8s; }
-        .grid img:nth-child(5) { animation-delay: 1.0s; }
-        .grid img:nth-child(6) { animation-delay: 1.2s; }
+        /* Последнее фото всегда по центру */
+        .grid img:last-child {
+            grid-column: 1 / -1;
+            max-width: 400px;
+            margin: 0 auto;
+            justify-self: center;
+        }
         
         footer {
             text-align: center;
-            padding: 30px;
+            padding: 40px;
             background: rgba(255,255,255,0.9);
-            margin-top: 50px;
             font-size: 0.9rem;
             color: #666;
         }
         
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes fadeInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        
-        /* На телефоне — строго 2 ряда, даже на узких экранах */
+        /* Телефон — всё чётко */
         @media (max-width: 768px) {
-            .site-title {
-                font-size: 1.9rem;
-            }
-            
-            nav {
-                grid-template-columns: repeat(3, 1fr); /* 2 ряда по 3 */
-                gap: 8px;
-            }
-            
-            nav a {
-                font-size: 0.85rem;
-                padding: 8px 6px;
-            }
-            
-            h1 {
-                font-size: 2.3rem;
-            }
-            
-            .slogan-ru {
-                font-size: 1.1rem;
-            }
-            
-            .logo {
-                max-width: 280px;
-            }
-            
-            .banner {
-                width: 95%;
-            }
-        }
-        
-        /* Если экран совсем узкий — переходим в 1 столбик */
-        @media (max-width: 450px) {
-            nav {
-                grid-template-columns: 1fr;
-            }
+            .site-title { font-size: 1.9rem; }
+            h1 { font-size: 2.4rem; }
+            .subtitle { font-size: 1.4rem; }
+            nav a { font-size: 0.9rem; padding: 10px 4px; }
+            .logo { max-width: 280px; }
         }
     </style>
 </head>
@@ -256,10 +196,8 @@
     <section class="hero">
         <img src="sait/logo_2.jpeg" alt="Логотип MAG Industries" class="logo">
         <h1>future - right now</h1>
-        <p class="slogan-ru">(будущее - прямо сейчас)</p>
-        <div class="banner-wrapper">
-            <img src="sait/pop.jpg" alt="Баннер MAG Industries" class="banner">
-        </div>
+        <div class="subtitle">(будущее - прямо сейчас)</div>
+        <img src="sait/pop.jpg" alt="Баннер" class="banner">
     </section>
 
     <section class="content">
@@ -272,22 +210,22 @@
     <section class="gallery">
         <h2>Наши возможности</h2>
         <div class="grid">
-            <img src="sait/foto1.jpg" alt="Оборудование 1">
-            <img src="sait/foto2.jpg" alt="Оборудование 2">
-            <img src="sait/foto3.jpg" alt="Оборудование 3">
-            <img src="sait/foto4.jpg" alt="Оборудование 4">
-            <img src="sait/foto5.jpg" alt="Оборудование 5">
-            <img src="sait/stol1.JPG" alt="Рабочее место 1">
-            <img src="sait/stol2.JPG" alt="Рабочее место 2">
-            <img src="sait/stol3.JPG" alt="Рабочее место 3">
-            <img src="sait/stol4.JPG" alt="Рабочее место 4">
-            <img src="sait/stol5.JPG" alt="Рабочее место 5">
-            <img src="sait/stol6.JPG" alt="Рабочее место 6">
+            <img src="sait/foto1.jpg" alt="">
+            <img src="sait/foto2.jpg" alt="">
+            <img src="sait/foto3.jpg" alt="">
+            <img src="sait/foto4.jpg" alt="">
+            <img src="sait/foto5.jpg" alt="">
+            <img src="sait/stol1.JPG" alt="">
+            <img src="sait/stol2.JPG" alt="">
+            <img src="sait/stol3.JPG" alt="">
+            <img src="sait/stol4.JPG" alt="">
+            <img src="sait/stol5.JPG" alt="">
+            <img src="sait/stol6.JPG" alt="">
         </div>
     </section>
 
     <footer>
-        обновление 2.7.0 &emsp; январь 2026 г.
+        обновление 3.0 &emsp; январь 2026 г.
     </footer>
 </body>
 </html>
