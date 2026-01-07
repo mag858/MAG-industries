@@ -321,7 +321,7 @@
                 <img src="sait/clock-1.png" alt="Clock-1">
                 <div class="timeline-info">
                     <div class="timeline-date">Май 2022</div>
-                    <div class="timeline-title">Первый прототип</div>
+                    <div class="timeline-title">Clock-1</div>
                 </div>
             </div>
             <!-- КАРТОЧКА 2 -->
@@ -329,7 +329,7 @@
                 <img src="sait/clock-2.png" alt="Clock-2">
                 <div class="timeline-info">
                     <div class="timeline-date">Май 2023</div>
-                    <div class="timeline-title">Улучшенная версия корпуса</div>
+                    <div class="timeline-title">Clock-2</div>
                 </div>
             </div>
             <!-- КАРТОЧКА 3 -->
@@ -337,7 +337,7 @@
                 <img src="sait/clock-3.png" alt="Clock-3">
                 <div class="timeline-info">
                     <div class="timeline-date">Июль 2023</div>
-                    <div class="timeline-title">Добавление дисплея</div>
+                    <div class="timeline-title">Clock-3</div>
                 </div>
             </div>
             <!-- КАРТОЧКА 4 -->
@@ -345,7 +345,7 @@
                 <img src="sait/clock-4.jpg" alt="Clock-4">
                 <div class="timeline-info">
                     <div class="timeline-date">Апрель 2024</div>
-                    <div class="timeline-title">Функциональный образец</div>
+                    <div class="timeline-title">Clock-4</div>
                 </div>
             </div>
             <!-- КАРТОЧКА 5 -->
@@ -353,7 +353,7 @@
                 <img src="sait/clock-4(P).png" alt="Clock-4(P)">
                 <div class="timeline-info">
                     <div class="timeline-date">Май 2025</div>
-                    <div class="timeline-title">Предсерийный образец</div>
+                    <div class="timeline-title">Clock-4(P)</div>
                 </div>
             </div>
             <!-- КАРТОЧКА 6 -->
@@ -361,7 +361,7 @@
                 <img src="sait/clock-5.jpg" alt="Clock-5">
                 <div class="timeline-info">
                     <div class="timeline-date">Декабрь 2025</div>
-                    <div class="timeline-title">Финальная версия MAG Watch</div>
+                    <div class="timeline-title">Clock-5</div>
                 </div>
             </div>
         </div>
