@@ -463,6 +463,13 @@
                     <div class="timeline-title">Clock-5</div>
                 </div>
             </div>
+            <div class="timeline-card">
+                <img src="sait/clock-5 pro.jpg" alt="Clock-5 pro">
+                <div class="timeline-info">
+                    <div class="timeline-date">Март 2026</div>
+                    <div class="timeline-title">Clock-6</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -595,6 +602,23 @@
                     "Вывод курса валют и погоды, обновление времени по wifi",
                     "Работа пульса",
                     "Обновление прошивки по wifi автоматически"
+                ]
+            },
+            "Clock-5 pro": {
+                title: "Clock-5 pro (Март 2026)",
+                image: "sait/clock-5 pro.jpg",
+                specs: [
+                    ["Микроконтроллер", "ESP32 Develop"],
+                    ["Дисплей", "'1.28' TFT дисплей 240x240 RGB"],
+                    ["Питание", "USB-C"],
+                    ["Материалы", "PLA (3D-печать)"],
+                    ["Сложность", "★★☆☆☆"]
+                ],
+                features: [
+                    "Сенсорный дисплей",
+                    "возможность установки sd-карты",
+                    "Обновление прошивки по wifi автоматически",
+                    "Оптимальные размеры"
                 ]
             }
         };
