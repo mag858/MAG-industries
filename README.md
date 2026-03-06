@@ -467,7 +467,7 @@
                 <img src="sait/clock-5 pro.jpg" alt="Clock-5 pro">
                 <div class="timeline-info">
                     <div class="timeline-date">Март 2026</div>
-                    <div class="timeline-title">Clock-6</div>
+                    <div class="timeline-title">Clock-5 pro</div>
                 </div>
             </div>
         </div>
