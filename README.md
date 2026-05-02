@@ -1,4 +1,3 @@
-
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -19,16 +18,13 @@
             --shadow: 0 4px 15px rgba(0,0,0,0.1);
             --light-yellow: #FFFFE0;
         }
-
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
         body {
             font-family: 'Roboto', sans-serif;
             background-color: var(--bg);
             color: var(--text);
             line-height: 1.6;
         }
-
         header {
             padding: 12px 0;
             background: var(--light-yellow);
@@ -37,14 +33,12 @@
             top: 0;
             z-index: 100;
         }
-
         .header-content {
             max-width: 1200px;
             margin: 0 auto;
             text-align: center;
             padding: 0 15px;
         }
-
         .site-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 2.3rem;
@@ -52,7 +46,6 @@
             color: var(--red);
             margin-bottom: 15px;
         }
-
         .header-divider {
             height: 2px;
             background: var(--primary);
@@ -61,7 +54,6 @@
             margin: 0 auto 20px;
             border-radius: 2px;
         }
-
         nav {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -69,7 +61,6 @@
             max-width: 1000px;
             margin: 0 auto;
         }
-
         nav a {
             text-decoration: none;
             color: var(--text);
@@ -82,25 +73,21 @@
             background: rgba(255,255,255,0.6);
             border: 1px solid rgba(0,0,0,0.1);
         }
-
         nav a:hover {
             background: var(--primary);
             color: white;
             border-color: var(--primary);
         }
-
         .hero {
             text-align: center;
             padding: 25px 20px 40px;
         }
-
         .logo {
             max-width: 320px;
             border-radius: 20px;
             box-shadow: var(--shadow);
             margin-bottom: 20px;
         }
-
         h1 {
             font-family: 'Montserrat', sans-serif;
             font-size: 3rem;
@@ -108,13 +95,11 @@
             margin: 0 0 10px 0;
             line-height: 1.2;
         }
-
         .subtitle {
             font-size: 1.6rem;
             color: #333;
             font-weight: 500;
         }
-
         .banner {
             width: 100%;
             max-width: 1270px;
@@ -123,7 +108,6 @@
             overflow: hidden;
             box-shadow: var(--shadow);
         }
-
         .content {
             max-width: 1000px;
             margin: 40px auto;
@@ -131,7 +115,6 @@
             font-size: 1.1rem;
             text-align: justify;
         }
-
         .gallery h2 {
             text-align: center;
             font-family: 'Montserrat', sans-serif;
@@ -139,7 +122,6 @@
             margin: 60px 0 40px;
             color: var(--primary);
         }
-
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -148,7 +130,6 @@
             margin: 0 auto 60px;
             padding: 0 20px;
         }
-
         .grid img {
             width: 100%;
             height: 250px;
@@ -157,12 +138,10 @@
             box-shadow: var(--shadow);
             transition: all 0.4s ease;
         }
-
         .grid img:hover {
             transform: translateY(-10px) scale(1.03);
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
-
         .grid img:last-child {
             grid-column: 1 / -1;
             max-width: 400px;
@@ -170,7 +149,6 @@
             margin: 0 auto;
             justify-self: center;
         }
-
         /* ХРОНОЛОГИЯ */
         .horizontal-timeline-section {
             padding: 80px 20px;
@@ -239,7 +217,6 @@
             font-size: 1.2rem;
             color: #333;
         }
-
         /* Bottom Sheet */
         .bottom-sheet {
             position: fixed;
@@ -255,16 +232,13 @@
             transition: bottom 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
             overflow-y: auto;
         }
-
         .bottom-sheet.active {
             bottom: 0;
         }
-
         .bottom-sheet-content {
             padding: 18px 24px 40px;
             position: relative;
         }
-
         .handle {
             width: 48px;
             height: 5px;
@@ -272,7 +246,6 @@
             border-radius: 4px;
             margin: 12px auto 24px;
         }
-
         .close-btn {
             position: absolute;
             top: 16px;
@@ -286,51 +259,42 @@
             cursor: pointer;
             transition: background 0.2s;
         }
-
         .close-btn:hover {
             background: #e0e0e0;
         }
-
         .sheet-image-container {
             text-align: center;
             margin: 20px 0 30px;
         }
-
         #sheetMainImage {
             max-width: 100%;
             max-height: 320px;
             border-radius: 16px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
-
         .specs h3 {
             color: var(--primary);
             margin: 28px 0 12px;
             font-family: 'Montserrat', sans-serif;
         }
-
         .specs ul {
             list-style: none;
             padding-left: 0;
         }
-
         .specs li {
             padding: 10px 0;
             border-bottom: 1px solid #eee;
             display: flex;
             justify-content: space-between;
         }
-
         .specs li strong {
             color: #444;
             min-width: 140px;
         }
-
         .specs li span {
             color: #666;
             text-align: right;
         }
-
         @media (max-width: 900px) {
             .timeline-cards {
                 flex-direction: column;
@@ -348,7 +312,6 @@
                 height: 350px;
             }
         }
-
         @media (max-width: 600px) {
             .bottom-sheet {
                 height: 92vh;
@@ -357,7 +320,6 @@
                 max-height: 260px;
             }
         }
-
         @media (max-width: 768px) {
             .site-title { font-size: 1.9rem; }
             h1 { font-size: 2.4rem; }
@@ -370,7 +332,6 @@
     </style>
 </head>
 <body>
-
     <header>
         <div class="header-content">
             <div class="site-title">MAG Industries</div>
@@ -470,25 +431,33 @@
                     <div class="timeline-title">Clock-5 pro</div>
                 </div>
             </div>
+            <!-- НОВЫЕ ЧАСЫ -->
+            <div class="timeline-card">
+                <img src="sait/clock-5-pro-max.jpg" alt="Clock-5 Pro Max">
+                <div class="timeline-info">
+                    <div class="timeline-date">Май 2026</div>
+                    <div class="timeline-title">Clock-5 Pro Max</div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Bottom Sheet / Выезжающая панель -->
+    <!-- Bottom Sheet -->
     <div class="bottom-sheet" id="bottomSheet">
         <div class="bottom-sheet-content">
             <div class="handle"></div>
             <button class="close-btn" id="closeSheet">✕</button>
-            
+           
             <h2 id="sheetTitle">Clock-X</h2>
-            
+           
             <div class="sheet-image-container">
                 <img id="sheetMainImage" src="" alt="Часы">
             </div>
-            
+           
             <div class="specs">
                 <h3>Основные характеристики</h3>
                 <ul id="sheetSpecs"></ul>
-                
+               
                 <h3>Функции</h3>
                 <ul id="sheetFeatures"></ul>
             </div>
@@ -496,134 +465,79 @@
     </div>
 
     <footer>
-        обновление 3.2 &emsp; январь 2026 г.
+        обновление 3.3 &emsp; май 2026 г.
     </footer>
 
     <script>
         // Данные о часах
         const clockData = {
-            "Clock-1": {
+            "Clock-1": { /* ... оставил без изменений ... */ 
                 title: "Clock-1 (Май 2022)",
                 image: "sait/clock-1.png",
-                specs: [
-                    ["Микроконтроллер", "ATmega328P"],
-                    ["Дисплей", "7 сегментные индикаторы"],
-                    ["Питание", "USB-C"],
-                    ["Корпус", "PLA (3D-печать)"],
-                    ["Сложность", "★★★★☆"]
-                ],
-                features: [
-                    "Показ времени",
-                    "Таймер 5 минутный",
-                    "Режим сна",
-                    "Ручная установка времени"
-                ]
+                specs: [["Микроконтроллер", "ATmega328P"],["Дисплей", "7 сегментные индикаторы"],["Питание", "USB-C"],["Корпус", "PLA (3D-печать)"],["Сложность", "★★★★☆"]],
+                features: ["Показ времени","Таймер 5 минутный","Режим сна","Ручная установка времени"]
             },
             "Clock-2": {
                 title: "Clock-2 (Май 2023)",
                 image: "sait/clock-2.png",
-                specs: [
-                    ["Микроконтроллер", "ATmega328P"],
-                    ["Дисплей", "0.96 128X64 OLED SPI"],
-                    ["Питание", "USB-C / беспроводная зарядка"],
-                    ["Корпус", "PLA (3D-печать)"],
-                    ["Сложность", "★★☆☆☆"]
-                ],
-                features: [
-                    "Показ времени и даты",
-                    "Режим сна",
-                    "Фонарик",
-                    "Малые гобариты"
-                ]
+                specs: [["Микроконтроллер", "ATmega328P"],["Дисплей", "0.96 128X64 OLED SPI"],["Питание", "USB-C / беспроводная зарядка"],["Корпус", "PLA (3D-печать)"],["Сложность", "★★☆☆☆"]],
+                features: ["Показ времени и даты","Режим сна","Фонарик","Малые габариты"]
             },
             "Clock-3": {
                 title: "Clock-3 (Июль 2023)",
                 image: "sait/clock-3.png",
-                specs: [
-                    ["Микроконтроллер", "ATmega328P"],
-                    ["Дисплей", "0.96 128X64 OLED I2C"],
-                    ["Питание", "USB-C"],
-                    ["Корпус", "PLA (3D-печать)"],
-                    ["Сложность", "★★★☆☆"]
-                ],
-                features: [
-                    "Сенсорные кнопки",
-                    "Показание уровня батареи",
-                    "Игра 'BLEKJACK'",
-                    "Разъем для прошивки"
-                ]
+                specs: [["Микроконтроллер", "ATmega328P"],["Дисплей", "0.96 128X64 OLED I2C"],["Питание", "USB-C"],["Корпус", "PLA (3D-печать)"],["Сложность", "★★★☆☆"]],
+                features: ["Сенсорные кнопки","Показание уровня батареи","Игра 'BLEKJACK'","Разъем для прошивки"]
             },
             "Clock-4": {
                 title: "Clock-4 (Апрель 2024)",
                 image: "sait/clock-4.jpg",
-                specs: [
-                    ["Микроконтроллер", "ATmega328P"],
-                    ["Дисплей", "0.96 128X64 OLED I2C"],
-                    ["Питание", "USB-C"],
-                    ["Материалы", "PETG (3D-печать)"],
-                    ["Сложность", "★★★☆☆"]
-                ],
-                features: [
-                    "Уменьшенные габариты",
-                    "Датчик наклона",
-                    "програмная калибровка времени",
-                    "долгая работа на одном заряде"
-                ]
+                specs: [["Микроконтроллер", "ATmega328P"],["Дисплей", "0.96 128X64 OLED I2C"],["Питание", "USB-C"],["Материалы", "PETG (3D-печать)"],["Сложность", "★★★☆☆"]],
+                features: ["Уменьшенные габариты","Датчик наклона","програмная калибровка времени","долгая работа на одном заряде"]
             },
             "Clock-4(P)": {
                 title: "Clock-4 Premium (Май 2025)",
                 image: "sait/clock-4(P).png",
-                specs: [
-                    ["Микроконтроллер", "ATmega328P"],
-                    ["Дисплей", "0.96 128X64 OLED I2C"],
-                    ["Питание", "Свой разьем"],
-                    ["Материалы", "PETG (3D-печать)"],
-                    ["Сложность", "★★★☆☆"]
-                ],
-                features: [
-                    "Оптимальные габариты",
-                    "Игра 'F1 reaction'",
-                    "Новое крепление ремешка",
-                    "Вывод температуры"
-                ]
+                specs: [["Микроконтроллер", "ATmega328P"],["Дисплей", "0.96 128X64 OLED I2C"],["Питание", "Свой разьем"],["Материалы", "PETG (3D-печать)"],["Сложность", "★★★☆☆"]],
+                features: ["Оптимальные габариты","Игра 'F1 reaction'","Новое крепление ремешка","Вывод температуры"]
             },
             "Clock-5": {
                 title: "Clock-5 (Декабрь 2025)",
                 image: "sait/clock-5.jpg",
-                specs: [
-                    ["Микроконтроллер", "Wemos d1 mini"],
-                    ["Дисплей", "'1.28' TFT дисплей 240x240 RGB GC9A01 SPI круглый"],
-                    ["Питание", "USB-C"],
-                    ["Материалы", "PLA (3D-печать)"],
-                    ["Сложность", "★★★★☆"]
-                ],
-                features: [
-                    "Новый интерфейс",
-                    "Вывод курса валют и погоды, обновление времени по wifi",
-                    "Работа пульса",
-                    "Обновление прошивки по wifi автоматически"
-                ]
+                specs: [["Микроконтроллер", "Wemos d1 mini"],["Дисплей", "'1.28' TFT дисплей 240x240 RGB GC9A01 SPI круглый"],["Питание", "USB-C"],["Материалы", "PLA (3D-печать)"],["Сложность", "★★★★☆"]],
+                features: ["Новый интерфейс","Вывод курса валют и погоды, обновление времени по wifi","Работа пульса","Обновление прошивки по wifi автоматически"]
             },
             "Clock-5 pro": {
                 title: "Clock-5 pro (Март 2026)",
                 image: "sait/clock-5 pro.jpg",
+                specs: [["Микроконтроллер", "ESP32 Develop"],["Дисплей", "'1.28' TFT дисплей 240x240 RGB"],["Питание", "USB-C"],["Материалы", "PLA (3D-печать)"],["Сложность", "★★☆☆☆"]],
+                features: ["Сенсорный дисплей","возможность установки sd-карты","Обновление прошивки по wifi автоматически","Оптимальные размеры"]
+            },
+            // Новые часы
+            "Clock-5 Pro Max": {
+                title: "Clock-5 Pro Max (Май 2026)",
+                image: "sait/clock-5-pro-max.jpg",
                 specs: [
-                    ["Микроконтроллер", "ESP32 Develop"],
-                    ["Дисплей", "'1.28' TFT дисплей 240x240 RGB"],
-                    ["Питание", "USB-C"],
-                    ["Материалы", "PLA (3D-печать)"],
-                    ["Сложность", "★★☆☆☆"]
+                    ["Микроконтроллер", "ESP32-S3"],
+                    ["Дисплей", "1.5' AMOLED 360x360"],
+                    ["Питание", "USB-C + беспроводная зарядка"],
+                    ["Материалы", "PETG + алюминиевые вставки"],
+                    ["Сложность", "★★★★★"]
                 ],
                 features: [
-                    "Сенсорный дисплей",
-                    "возможность установки sd-карты",
-                    "Обновление прошивки по wifi автоматически",
-                    "Оптимальные размеры"
+                    "Большой яркий AMOLED дисплей",
+                    "Сенсорный интерфейс + цифровая корона",
+                    "Bluetooth 5.2 и WiFi 6",
+                    "Датчики: пульс, SpO₂, температура, акселерометр",
+                    "Автономность до 14 дней",
+                    "Поддержка microSD до 512 ГБ",
+                    "Водозащита IP68",
+                    "Улучшенный дизайн"
                 ]
             }
         };
 
-        // Элементы
+        // === Скрипт Bottom Sheet (без изменений) ===
         const bottomSheet = document.getElementById('bottomSheet');
         const closeBtn = document.getElementById('closeSheet');
         const sheetTitle = document.getElementById('sheetTitle');
@@ -631,26 +545,18 @@
         const sheetSpecs = document.getElementById('sheetSpecs');
         const sheetFeatures = document.getElementById('sheetFeatures');
 
-        // Закрытие
-        closeBtn.addEventListener('click', () => {
-            bottomSheet.classList.remove('active');
-        });
-
+        closeBtn.addEventListener('click', () => bottomSheet.classList.remove('active'));
         bottomSheet.addEventListener('click', (e) => {
-            if (e.target === bottomSheet) {
-                bottomSheet.classList.remove('active');
-            }
+            if (e.target === bottomSheet) bottomSheet.classList.remove('active');
         });
 
-        // Открытие карточек
         document.querySelectorAll('.timeline-card').forEach(card => {
             card.addEventListener('click', () => {
                 const titleElem = card.querySelector('.timeline-title');
                 const clockName = titleElem.textContent.trim();
-
+                
                 if (clockData[clockName]) {
                     const data = clockData[clockName];
-
                     sheetTitle.textContent = data.title;
                     sheetMainImage.src = data.image;
                     sheetMainImage.alt = data.title;
@@ -674,17 +580,15 @@
             });
         });
 
-        // Анимация появления карточек
+        // Анимация карточек
         const cards = document.querySelectorAll('.timeline-card');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry, index) => {
                 if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.classList.add('visible');
-                    }, index * 150);
+                    setTimeout(() => entry.target.classList.add('visible'), index * 150);
                 }
             });
-        }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+        }, { threshold: 0.15 });
 
         cards.forEach(card => observer.observe(card));
     </script>
